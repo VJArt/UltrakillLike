@@ -2,14 +2,21 @@ using UnityEngine;
 
 public class MovementScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private Rigidbody rb;
+    private Vector3 verticalVelocity;
+    private Vector3 horizontalVelocity;
+
+    private void Awake()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         
     }

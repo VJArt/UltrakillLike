@@ -3,9 +3,11 @@ using UnityEngine;
 public class MovementScript : MonoBehaviour
 {
 
+    [Header("References")]
     private Rigidbody rb;
-    private Vector3 verticalVelocity;
-    private Vector3 horizontalVelocity;
+    public Transform orientation;
+
+    
 
     private void Awake()
     {

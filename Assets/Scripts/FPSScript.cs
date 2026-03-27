@@ -5,8 +5,8 @@ public class FPSCameraControllerScript : MonoBehaviour
 {
     [Header("Look Settings")]
     [Tooltip("New Input System uses raw deltas. Start low (e.g., 0.05 - 0.1)")]
-    [SerializeField] public float sensitivity = 0.1f;
-    [SerializeField] public float xRotation = 0f;
+    public float sensitivity = 0.1f;
+    public float xRotation = 0f;
 
     private InputAction lookAction;
 
